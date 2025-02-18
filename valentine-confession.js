@@ -26,7 +26,7 @@ $(".heart").on('webkitAnimationEnd oanimationend msAnimationEnd animationend', f
         $(".heart").addClass("openedHer").addClass("beating");
     } else {
         $(".heart").addClass("no-anim").removeClass("beating");
-        <a href="./nextpage.html">Next Page</a>; // เพิ่มบรรทัดนี้เพื่อเปลี่ยนหน้าเมื่อปิดหัวใจ
+        <a href="/Valentine2025/nextpage.html">Next Page</a> // เพิ่มบรรทัดนี้เพื่อเปลี่ยนหน้าเมื่อปิดหัวใจ
     }
     $(".heart").removeClass("openHer").removeClass("closeHer");
 });
